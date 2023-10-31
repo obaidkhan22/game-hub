@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import apiClient, { CanceledError } from "../service/api-client";
 import { AxiosRequestConfig } from "axios";
-import { Genre } from "./useGenres";
 
 const useData = <T>(
   endpoint: string,
