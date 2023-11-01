@@ -8,7 +8,9 @@ export const ColorModeSwitch = () => {
         colorScheme="green"
         onChange={toggleColorMode}
       />
-      <Text>Dark Mode</Text>
+      <Text whiteSpace="nowrap" marginRight={1}>
+        Dark Mode
+      </Text>
     </HStack>
   );
 };
